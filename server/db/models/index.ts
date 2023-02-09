@@ -1,3 +1,5 @@
+import { RowDataPacket } from "mysql2";
+
 export interface UsersTable {
   id?: number;
   email?: string;
